@@ -4,7 +4,7 @@
 **Author:** Andreza Eufrasio
 
 ---
-![Miami Housing Market](images/miami.png)
+![Miami Housing Market](image/miami.png)
 
 ## Project overview
 
