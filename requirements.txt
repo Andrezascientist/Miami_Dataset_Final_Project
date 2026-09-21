@@ -1,0 +1,8 @@
+corner
+numpy
+pandas
+seaborn
+matplotlib
+scipy
+scikit-learn
+dmba
