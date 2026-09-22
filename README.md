@@ -56,6 +56,7 @@ The revised notebook reports the following results for the held-out validation s
 | Linear regression (selected features) | 0.787 | 0.261 | 0.191 |
 | KNN (scaled, tuned; k = 3) | 0.825 | 0.237 | 0.165 |
 
+
 **Key findings:** 
 * In this revised experiment, scaled KNN has lower validation errors and higher R² than either linear regression specification.
 * Feature selection did not improve the linear model's held-out accuracy relative to its full-feature baseline.
