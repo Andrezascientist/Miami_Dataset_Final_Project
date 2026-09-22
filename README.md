@@ -68,6 +68,8 @@ The revised notebook reports the following results for the held-out validation s
 
 The original Spring 2024 course report recorded **R² = 0.81, RMSE = 0.25, MAE = 0.18** for linear regression and **R² = 0.86, RMSE = 0.21, MAE = 0.15** for KNN (`k = 4`). Those values describe the **original submission**, not the revised notebook. The original report discussed correlation-guided and AIC/BIC feature selection; the revised notebook instead uses training-only cross-validation for selection and a consistently scaled KNN pipeline. The two sets of results should not be treated as the same experiment.
 
+---
+
 ## Repository files
 
 ```text
