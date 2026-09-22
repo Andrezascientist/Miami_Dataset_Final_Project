@@ -56,7 +56,10 @@ The revised notebook reports the following results for the held-out validation s
 | Linear regression (selected features) | 0.787 | 0.261 | 0.191 |
 | KNN (scaled, tuned; k = 3) | 0.825 | 0.237 | 0.165 |
 
-**Key findings:** In this revised experiment, scaled KNN has lower validation errors and higher R² than either linear regression specification. Feature selection did not improve the linear model's held-out accuracy relative to its full-feature baseline. These findings apply to this dataset and random split; they do not establish performance on future or external sales.
+**Key findings:** 
+* In this revised experiment, scaled KNN has lower validation errors and higher R² than either linear regression specification.
+* Feature selection did not improve the linear model's held-out accuracy relative to its full-feature baseline.
+* These findings apply to this dataset and random split; they do not establish performance on future or external sales.
 
 **Metric interpretation:** All three metrics above evaluate predictions of the **natural logarithm of sale price**. In particular, MAE and RMSE are in log-price units, **not dollars or percentages**. The notebook exponentiates predictions for the actual-versus-predicted dollar-price plots; it does not report dollar-scale error metrics.
 
