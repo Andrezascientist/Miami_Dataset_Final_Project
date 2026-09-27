@@ -137,5 +137,5 @@ miami-housing-price-prediction/
 
 4. Open the notebook in Jupyter and run the cells in order.
 
-For the full methodology, code, results, and interpretation, see the [Miami_Housing_Price_Prediction - HTML_Report](index.html).
+For the full methodology, code, results, and interpretation, see the [Miami_Housing_Price_Prediction - HTML_Report](https://andrezascientist.github.io/Miami_Dataset_Final_Project/).
 
