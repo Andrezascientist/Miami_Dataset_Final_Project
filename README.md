@@ -15,9 +15,9 @@ This project analyzes **13,932 Miami single-family property sales** to explore r
 
 ## Questions explored
 
- * ** What patterns appear in Miami housing prices and property characteristics?
- * ** How do Linear Regression and KNN compare when predicting sale prices?
- * ** What are the limitations of the models, and how might they perform on new data?
+ * **What patterns appear in Miami housing prices and property characteristics?**
+ * **How do Linear Regression and KNN compare when predicting sale prices?**
+ * **What are the limitations of the models, and how might they perform on new data?**
 
 ---
 
@@ -51,19 +51,19 @@ Feature selection and KNN tuning use only the training data; the validation data
 
 The original sale prices are right-skewed. Comparing their distribution with the natural-log transformation helps explain the choice of modeling target.
 
-![Original and log-transformed sale-price distributions](images/sale_price_distribution.jpg)
+![Original and log-transformed sale-price distributions](image/sale_price_distribution.jpg)
 
 ### Selected property characteristics
 
 These histograms show variation in land area, living area, special-feature value, building age, and distances to the ocean and city center.
 
-![Distributions of selected property characteristics](images/predictor_distributions.jpg)
+![Distributions of selected property characteristics](image/predictor_distributions.jpg)
 
 ### Correlation analysis
 
 The heatmap shows descriptive Pearson correlations among selected numerical variables. Correlation alone does not establish causation or determine which features will improve model predictions.
 
-![Correlation heatmap of selected variables](images/correlation_heatmap.jpg)
+![Correlation heatmap of selected variables](image/correlation_heatmap.jpg)
 
 ---
 
@@ -89,7 +89,7 @@ The revised notebook reports the following results on the **validation dataset**
 
 Each point represents a property in the validation dataset. The dashed diagonal indicates perfect agreement; points above it are overpredictions, and points below it are underpredictions. Both axes use a logarithmic scale. Prices shown in dollars are obtained by exponentiating the models' log-price predictions; the models were not trained separately on dollar prices.
 
-![Actual versus predicted sale prices for Linear Regression and KNN](images/actual_vs_predicted_sale_prices.jpg)
+![Actual versus predicted sale prices for Linear Regression and KNN](image/actual_vs_predicted_sale_prices.jpg)
 
 ---
 
