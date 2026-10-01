@@ -2,7 +2,7 @@
 
 ![Aerial view of Miami](image/miami.png)
 
-**Academic project | M.S. in Data Analytics | DA 523, Spring 2024**  
+**Academic project | M.S. in Data Analytics | Business for Data Analytics - DA 523, Spring 2024**  
 **Author:** Andreza Eufrasio
 
 ---
